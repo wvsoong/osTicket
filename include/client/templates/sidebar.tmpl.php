@@ -16,6 +16,10 @@ $BUTTONS = isset($BUTTONS) ? $BUTTONS : true;
             <a href="view.php" style="display:block" class="green button"><?php
                 echo __('Check Ticket Status');?></a>
 </p>
+<p>
+            <a href="view.php" style="display:block" class="black button"><?php
+                echo __('Login as User');?></a>
+</p>
         </div>
 <?php } ?>
         <div class="content"><?php

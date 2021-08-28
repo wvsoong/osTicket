@@ -272,6 +272,15 @@ h2, .subject {
 }
 .button,
 .button:visited,
+
+.black.button,
+.black.button:visited {
+  background-color: #5e5e5e;
+}
+.black.button:hover {
+  background-color: #252525;
+}
+
 .green.button,
 .green.button:visited {
   background-color: #91bd09;
