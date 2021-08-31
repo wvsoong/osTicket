@@ -1,5 +1,5 @@
 <?php
-$BUTTONS = isset($BUTTONS) ? $BUTTONS : true;
+$BUTTONS = isset($BUTTONS) ? $BUTTONS : true
 ?>
     <div class="sidebar pull-right">
 <?php if ($BUTTONS) { ?>
@@ -18,7 +18,7 @@ $BUTTONS = isset($BUTTONS) ? $BUTTONS : true;
 </p>
 <p>
             <a href="view.php" style="display:block" class="black button"><?php
-                echo __('Login as User');?></a>
+                echo __('Login as User test');?></a>
 </p>
         </div>
 <?php } ?>
